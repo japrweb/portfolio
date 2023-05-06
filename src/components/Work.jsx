@@ -35,7 +35,7 @@ function Work() {
           className='shadow-md shadow-[#6BD425] hover:shadow-sm hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center'>
             {/* Hover Effects */}
             <div className='bg-gray-300 bg-opacity-10 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20 '>
-              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Real Estate App</span>
+              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Music App Clone</span>
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
 
                 <a href="https://syncfusion-dashboardapp.netlify.app/"><button className='text-center rounded-md hover:shadow-white hover:shadow-md hover:transition-all hover:duration-700 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
@@ -49,7 +49,7 @@ function Work() {
           className='shadow-md shadow-[#6BD425] hover:shadow-sm hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center'>
             {/* Hover Effects */}
             <div className='bg-gray-300 bg-opacity-50 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20 '>
-              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Music App Clone</span>
+              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Real Estate App</span>
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
 
                 <a href="https://syncfusion-dashboardapp.netlify.app/"><button className='text-center rounded-md hover:shadow-white hover:shadow-md hover:transition-all hover:duration-700 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
