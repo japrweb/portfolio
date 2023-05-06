@@ -53,8 +53,8 @@ function Work() {
               <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Real Estate App</span>
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
 
-                <a href="https://syncfusion-dashboardapp.netlify.app/"><button className='text-center rounded-md shadow-sm shadow-gray-400 hover:shadow-gray-400 hover:shadow-md hover:transition-all hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
-                <a href="https://github.com/japrweb/dashboard-app"><button className='text-center rounded-md shadow-sm shadow-gray-400 hover:shadow-gray-400 hover:shadow-md hover:transition-all hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Code</button></a>
+                <a href="https://real-estate-app-japrweb.vercel.app/"><button className='text-center rounded-md shadow-sm shadow-gray-400 hover:shadow-gray-400 hover:shadow-md hover:transition-all hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
+                <a href="https://github.com/japrweb/rea"><button className='text-center rounded-md shadow-sm shadow-gray-400 hover:shadow-gray-400 hover:shadow-md hover:transition-all hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Code</button></a>
               </div>
             </div>
           </div>
