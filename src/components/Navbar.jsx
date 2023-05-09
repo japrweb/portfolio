@@ -10,9 +10,9 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[65px] flex justify-between items-center px-4 bg-[#0e0e0e] text-gray-300 z-10 border-b-[1px] border-[#1b1b1b]">
+    <div className="fixed w-full h-[65px] flex justify-between items-center px-6 md:px-20 bg-[#0e0e0e] text-gray-300 z-10 border-b-[1px] border-[#1b1b1b]">
       <div className="w-[30px]">
-        <Link to="home" smooth={true} duration={500}><img src={Logo} alt="Logo Image" className="ml-4 md:ml-12 cursor-pointer"/></Link>
+        <Link to="home" smooth={true} duration={500}><img src={Logo} alt="Logo Image" className="cursor-pointer"/></Link>
       </div>
 
       {/* Menu */}
@@ -26,17 +26,17 @@ function Navbar() {
 
       {/* Hamburger Button */}
       <div onClick={handleClick} className="md:hidden z-10 cursor-pointer hover:text-gray-500 hover:scale-110
-duration-700 ">
+duration-700 text-[24px]">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile Menu */}
       <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0e0e0e] opacity-95 flex flex-col justify-center items-center gap-y-6 text-4xl"}>
-        <li className="hover:text-[#6BD425]"><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
-        <li className="hover:text-[#6BD425]"><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
-        <li className="hover:text-[#6BD425]"><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
-        <li className="hover:text-[#6BD425]"><Link onClick={handleClick} to="Work" smooth={true} duration={500}>Work</Link></li>
-        <li className="hover:text-[#6BD425]"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
+        <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
+        <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
+        <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
+        <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="Work" smooth={true} duration={500}>Work</Link></li>
+        <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
       </ul>
 
       {/* Social Icons */}
