@@ -14,7 +14,7 @@ function Contact() {
             <input className='p-2 bg-[#ccd6f6]' type="text" placeholder='Name' name='name'/>
             <input className='my-4 p-2 bg-[#ccd6f6]' type="text" placeholder='Email' name='email'/>
             <textarea className='p-2 bg-[#ccd6f6]' name="message" cols="30" rows="10" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#1b1b1b] font-medium px-6 py-3 my-4 mx-auto ml-0 flex items-center rounded-md'>Send Form</button>
+            <button className='text-white border-2 hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#1b1b1b] font-medium px-6 py-3 my-4 mx-auto ml-0 flex items-center rounded-md duration-700'>Send Form</button>
         </form>
 
     </div>

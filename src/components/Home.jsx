@@ -20,7 +20,7 @@ function Home() {
         </p>
         <div>
           <Link to="work" smooth={true} duration={500} className="flex items-center">
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#0e0e0e] font-medium rounded-md">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#0e0e0e] font-medium rounded-md duration-700">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
