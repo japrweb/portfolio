@@ -42,22 +42,22 @@ duration-700 text-[24px]">
       {/* Social Icons */}
       <div className="hidden md:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-blue-600">
             <a className="flex justify-between items-center w-full text-gray-300"
             href="https://www.linkedin.com/in/japrweb/" target="_blank">Linkedin <FaLinkedin className="text-[30px]"/></a>
           </li>
 
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#333333]">
             <a className="flex justify-between items-center w-full text-gray-300"
             href="https://github.com/japrweb" target="_blank">Github <FaGithub className="text-[30px]"/></a>
           </li>
 
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#945353]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#945353]">
             <a className="flex justify-between items-center w-full text-gray-300"
             href="mailto:japr893@gmail.com" target="_blank">Email <HiOutlineMail className="text-[30px]"/></a>
           </li>
 
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#539486]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-700 bg-[#539486]">
             <a className="flex justify-between items-center w-full text-gray-300"
             href="src/assets/Resume_JohnAPerezR.pdf" download> Resume <BsFillPersonLinesFill className="text-[30px]"/></a>
           </li>
