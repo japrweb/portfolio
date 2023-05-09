@@ -1,7 +1,13 @@
 import React from 'react';
+
+import { Link } from "react-scroll";
+
 import dashboardApp from '../assets/projects/dashboardApp.png';
 import musicAppClone from '../assets/projects/musicAppClone.png';
 import realEstateApp from '../assets/projects/realEstateApp.png';
+import legalAdvice from '../assets/projects/markaribeip.png';
+import portfolio from '../assets/projects/japrweb.png';
+import cardStore from '../assets/projects/silalase.png';
 
 
 function Work() {
@@ -40,7 +46,7 @@ function Work() {
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
 
                 <a href="https://musicapp-clone.netlify.app/" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
-                <a href="https://github.com/japrweb/music-app-clone" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Code</button></a>
+                <a href="https://github.com/japrweb/music-app-clone" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Code</button></a>
               </div>
             </div>
           </div>
@@ -53,46 +59,48 @@ function Work() {
               <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Real Estate App</span>
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
 
-                <a href="https://real-estate-app-japrweb.vercel.app/" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all hover:duration-700 transition-all duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
-                <a href="https://github.com/japrweb/rea" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all hover:duration-700 transition-all duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Code</button></a>
+                <a href="https://real-estate-app-japrweb.vercel.app/" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
+                <a href="https://github.com/japrweb/rea" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Code</button></a>
               </div>
             </div>
           </div>
 
-          <div style={{ backgroundColor: 'white', backgroundSize: 'cover', backgroundPosition: 'center' }}
-          className='shadow-md shadow-[#6BD425] hover:shadow-sm hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center'>
+          <div style={{ backgroundImage: `url(${legalAdvice})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          className='shadow-md shadow-[#6BD425] hover:shadow-md hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center hover:scale-105 transition-all duration-700'>
             {/* Hover Effects */}
-            <div className='bg-gray-300 bg-opacity-50 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20 '>
-              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Website 1</span>
+            <div className='bg-gray-300 bg-opacity-30 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center transition-all duration-700 group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20'>
+              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Legal Advice</span>
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
 
-                <a href="#" target="_blank"><button className='text-center rounded-md hover:shadow-white hover:shadow-md hover:transition-all hover:duration-700 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Visit Website</button></a>
+                <a href="https://www.markaribeip.com/" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Visit Website</button></a>
               </div>
             </div>
           </div>
 
           {/* Grid Items - Col 3 */}
-          <div style={{ backgroundColor: 'white', backgroundSize: 'cover', backgroundPosition: 'center' }}
-          className='shadow-md shadow-[#6BD425] hover:shadow-sm hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center'>
+          <div style={{ backgroundImage: `url(${portfolio})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          className='shadow-md shadow-[#6BD425] hover:shadow-md hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center hover:scale-105 transition-all duration-700'>
             {/* Hover Effects */}
-            <div className='bg-gray-300 bg-opacity-10 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20 '>
+            <div className='bg-gray-300 bg-opacity-30 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center transition-all duration-700 group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20'>
               <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Portfolio</span>
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
-
-                <a href="#" target="_blank"><button className='text-center rounded-md hover:shadow-white hover:shadow-md hover:transition-all hover:duration-700 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button></a>
-                <a href="https://github.com/japrweb/portfolio" target="_blank"><button className='text-center rounded-md hover:shadow-black hover:shadow-lg hover:transition-all hover:duration-700 px-4 py-2 mx-2 mt-0 bg-white text-[#0e0e0e] font-bold text-lg'>Code</button></a>
+                
+                <Link to="home" smooth={true} duration={500}>
+                  <button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Demo</button>
+                </Link>
+                <a href="https://github.com/japrweb/portfolio" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Code</button></a>
               </div>
             </div>
           </div>
 
-          <div style={{ backgroundColor: 'white', backgroundSize: 'cover', backgroundPosition: 'center' }}
-          className='shadow-md shadow-[#6BD425] hover:shadow-sm hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center'>
+          <div style={{ backgroundImage: `url(${cardStore})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+          className='shadow-md shadow-[#6BD425] hover:shadow-md hover:shadow-[#6BD425] group container rounded-md mx-auto content-div flex items-center justify-center hover:scale-105 transition-all duration-700'>
             {/* Hover Effects */}
-            <div className='bg-gray-300 bg-opacity-50 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20 '>
-              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Website 3</span>
+            <div className='bg-gray-300 bg-opacity-30 group-hover:bg-black group-hover:bg-opacity-70 rounded-md w-full h-full text-center transition-all duration-700 group-hover:transition-all group-hover:duration-700 mx-auto px-4 py-24 group-hover:py-20'>
+              <span className='text-3xl font-bold tracking-wider drop-shadow-lg text-[#0e0e0e] group-hover:text-white'>Card Store</span>
               <div className='hidden group-hover:block pt-2 text-center hover:text-white'>
 
-                <a href="#" target="_blank"><button className='text-center rounded-md hover:shadow-white hover:shadow-md hover:transition-all hover:duration-700 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg transition-all duration-700'>Visit website</button></a>
+                <a href="https://www.cardstore.silalase.com/" target="_blank"><button className='text-center rounded-md shadow-sm shadow-[#6BD425] hover:shadow-[#6BD425] hover:shadow-md hover:transition-all  transition-all duration-700 hover:duration-700 hover:scale-105 px-4 py-2 mx-2 mt-0 bg-[#0e0e0e] text-white font-bold text-lg'>Visit website</button></a>
               </div>
             </div>
           </div>
