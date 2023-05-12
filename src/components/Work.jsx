@@ -25,7 +25,7 @@ function Work() {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
 
           {/* New cards design */}
-          <div className='bg-slate-700 hover:bg-slate-900 justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl hover:shadow-lg hover:shadow-[#6BD425] transition-all duration-1000 hover:transition-all hover:duration-1000 hover:scale-[101%] group-hover:text-red-600'>
+          <div className='bg-slate-700 hover:bg-slate-800 justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl hover:shadow-lg hover:shadow-[#6BD425] transition-all duration-1000 hover:transition-all hover:duration-1000 hover:scale-[101%] group-hover:text-red-600'>
             <div style={{ backgroundImage: `url(${dashboardApp})`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} className='w-full h-[200px] m-auto rounded-2xl mb-4'>
               <button type='button' className='bg-black hover:bg-slate-900 rounded-full p-2 w-10 text-white font-semibold mx-2 mt-2 shadow-md shadow-[#0e0e0e] transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-105'>G</button>
             </div>
