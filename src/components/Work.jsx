@@ -27,7 +27,7 @@ function Work() {
           {/* New cards design */}
           <div className='bg-slate-700 hover:bg-slate-800 justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl hover:shadow-lg hover:shadow-[#6BD425] transition-all duration-1000 hover:transition-all hover:duration-1000 hover:scale-[101%] group-hover:text-red-600'>
             <div style={{ backgroundImage: `url(${dashboardApp})`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} className='w-full h-[200px] m-auto rounded-2xl mb-4'>
-              <button type='button' className='bg-black hover:bg-slate-900 rounded-full p-2 w-10 text-white font-semibold mx-2 mt-2 shadow-md shadow-[#0e0e0e] transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-105'>G</button>
+              <a href="https://github.com/japrweb/dashboard-app" target="_blank"><button type='button' className='bg-black hover:bg-slate-800 rounded-full p-2 w-10 text-white font-semibold mx-2 mt-2 shadow-md shadow-[#0e0e0e] transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-105'>G</button></a>
             </div>
             
             <div>
@@ -38,7 +38,7 @@ function Work() {
               <span className='mr-2 text-red-400'>#Tailwind</span>
             </div>
 
-            <button type='button' className='w-full bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md group-hover:text-red-600 font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button>
+            <a href="https://syncfusion-dashboardapp.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md group-hover:text-red-600 font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
           </div>
 
           {/*Grid Items - Col 1 */}
