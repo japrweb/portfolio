@@ -8,7 +8,7 @@ import GoUp from "./components/GoUp";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Home />
       <About />
