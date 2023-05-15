@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
+import { SiReact, SiVite, SiTailwindcss, SiCss3, SiWordpress, SiCreatereactapp, SiNextdotjs, SiChakraui  } from 'react-icons/si';
 
 import { Link } from "react-scroll";
 
@@ -34,9 +35,16 @@ function Work() {
             <div>
               <p className='text-2xl text-white font-bold'>Dashboard App</p>
               <p className='text-sm text-gray-400 mb-1 mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolor sit labore, culpa nihil necessitatibus maxime.</p>
-              <span className='mr-2 text-blue-400'>#React</span> 
-              <span className='mr-2 text-green-300'>#Vite</span>
-              <span className='mr-2 text-red-400'>#Tailwind</span>
+              <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
+                <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
+                {/* <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span> */}
+                {/* <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span> */}
+                {/* <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span> */}
+                <span className='text-[#09d3ac] font-semibold flex items-center gap-0.5'><SiCreatereactapp />CreateReactApp</span>
+                <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
+                {/* <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiNextdotjs />Next</span> */}
+                {/* <span className='text-[#53c9c6] font-semibold flex items-center gap-0.5'><SiChakraui />Chakra UI</span> */}
+              </div>
             </div>
 
             <a href="https://syncfusion-dashboardapp.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
