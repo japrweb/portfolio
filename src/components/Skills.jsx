@@ -11,7 +11,7 @@ import Tailwind from "../assets/tailwind.png";
 
 function Skills() {
   return (
-    <div name="skills" className="w-full h-full bg-[#0e0e0e] text-gray-300">
+    <div name="skills" className="w-full h-full bg-[#0e0e0e] text-gray-300 py-32">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="mt-4">
