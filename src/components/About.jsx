@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div name="about" className="w-full h-screen bg-[#0e0e0e] text-gray-300">
+    <div name="about" className="w-full h-screen bg-[#0e0e0e] text-gray-300 md:m-auto">
       <div className="flex flex-col justify-center items-center w-full h-full">
 
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
@@ -34,7 +34,6 @@ function About() {
 
 My ability to negotiate and manage projects allows me to work in collaboration with my team to achieve the set goals and meet the client's expectations. I am always looking for new challenges and opportunities to continue growing in the field of technology.
             </p>
-            <br /><br />
           </div>
         </div>
 

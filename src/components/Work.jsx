@@ -14,7 +14,7 @@ import cardStore from '../assets/projects/silalase.png';
 
 function Work() {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0e0e0e] md:pb-20">
+    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0e0e0e] md:mt-[12%]">
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8 pt-16'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#6BD425]'>
@@ -57,7 +57,7 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Music App Clone</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>A Spotify inspired application with a modern homepage, a music player, search functionality, song exploration features, local music search, global top charts.</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2'>A Spotify inspired application with a homepage, a music player, search functionality, song exploration features, local music search, global top charts.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
                 <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span>
