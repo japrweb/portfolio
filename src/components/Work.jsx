@@ -37,7 +37,7 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Dashboard App</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>React Admin Dashboard Application encompasses an Admin Panel comprising of one Dashboard, Three Pages, Four Apps, and Seven fully functional charts.</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2'>React Admin Dashboard Application includes an Admin Panel with Dashboard, Three Pages, Four Apps, and Seven functional charts.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
                 <span className='text-[#09d3ac] font-semibold flex items-center gap-0.5'><SiCreatereactapp />CRA</span>
@@ -96,7 +96,7 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Legal Advice</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>Site providing legal guidance and support for brand consultation, copyright protection, and related services for the creative industry.</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2'>The site offers essential legal guidance and support for brand consultation, copyright protection, and related services in the creative industry.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
                 <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
@@ -115,7 +115,7 @@ function Work() {
             </div>
             
             <div>
-              <p className='text-2xl text-white font-bold'>Professional Portfolio</p>
+              <p className='text-2xl text-white font-bold'>Portfolio</p>
               <p className='text-sm text-gray-400 mb-1 mt-2'>A website showcasing a professional portfolio of my recent works in application and web development, using various technologies.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
