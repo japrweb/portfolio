@@ -35,7 +35,7 @@ duration-700 text-[24px]">
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="Work" smooth={true} duration={500}>Work</Link></li>
+        <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="work" smooth={true} duration={500}>Work</Link></li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
       </ul>
 
