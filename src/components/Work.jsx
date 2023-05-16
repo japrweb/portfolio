@@ -40,13 +40,8 @@ function Work() {
               <p className='text-sm text-gray-400 mb-1 mt-2'>React Admin Dashboard Application encompasses an Admin Panel comprising of one Dashboard, Three Pages, Four Apps, and Seven fully functional charts.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
-                {/* <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span> */}
-                {/* <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span> */}
-                {/* <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span> */}
                 <span className='text-[#09d3ac] font-semibold flex items-center gap-0.5'><SiCreatereactapp />CRA</span>
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
-                {/* <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiNextdotjs />Next</span> */}
-                {/* <span className='text-[#53c9c6] font-semibold flex items-center gap-0.5'><SiChakraui />Chakra UI</span> */}
               </div>
             </div>
             <a href="https://syncfusion-dashboardapp.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
@@ -101,7 +96,7 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Legal Advice</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>A website providing legal guidance and support for brand consultation, copyright protection, and related services for the creative industry.</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2'>Site providing legal guidance and support for brand consultation, copyright protection, and related services for the creative industry.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
                 <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
@@ -140,7 +135,7 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Card Store</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>A website providing legal guidance and support for brand consultation, copyright protection, and related services for the creative industry.</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2'>Online website offering sales of a wide variety of cards, providing a convenient platform to explore and purchase unique card designs.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
                 <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
