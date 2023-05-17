@@ -10,7 +10,7 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[65px] flex justify-between items-center md:px-20 bg-[#0e0e0e] text-gray-300 z-10 border-b-[1px] border-[#1b1b1b]">
+    <div className="fixed w-full h-[65px] flex justify-between items-center md:px-20 bg-[#0e0e0e] text-gray-300 border-b-[1px] border-[#1b1b1b] z-20">
       <div className="w-[30px] ml-6">
         <Link to="home" smooth={true} duration={500}><img src={Logo} alt="Logo Image" className="cursor-pointer"/></Link>
       </div>

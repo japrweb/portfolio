@@ -2,12 +2,17 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
+import Logo from '../assets/Logo_.png';
+
+
 
 function Home() {
   return (
     <div name="home" className="w-full h-screen bg-[#0e0e0e] md:px-10 md:mb-[-10%] mb-[-20%]">
       {/* Container */}
+      
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+        
         <p className="text-[#6BD425]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           John A. Pérez R.
@@ -20,7 +25,7 @@ function Home() {
         </p>
         <div>
           <Link to="work" smooth={true} duration={500} delay={300} className="flex items-center">
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#0e0e0e] font-medium rounded-md duration-700">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#0e0e0e] font-medium rounded-md duration-700 z-10">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
@@ -28,6 +33,7 @@ function Home() {
             </button>
           </Link>
         </div>
+        <div className="shadow-inset-white bg-cover animate-myAnimation bg-center bg-no-repeat w-[90%] h-[50%] md:w-[40%] md:h-[60%] absolute z-0 -mt-20 opacity-50"/>
       </div>
     </div>
   );
