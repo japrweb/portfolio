@@ -11,7 +11,6 @@ import legalAdvice from '../assets/projects/markaribeip.png';
 import portfolio from '../assets/projects/japrweb.png';
 import cardStore from '../assets/projects/silalase.png';
 
-
 function Work() {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0e0e0e] md:mt-[12%]">
@@ -44,7 +43,7 @@ function Work() {
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
               </div>
             </div>
-            <a href="https://syncfusion-dashboardapp.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
+            <a href="https://syncfusion-dashboardapp.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></a>
           </div>
 
           {/* Music App Clone */}
@@ -64,7 +63,7 @@ function Work() {
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
               </div>
             </div>
-            <a href="https://musicapp-clone.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
+            <a href="https://musicapp-clone.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></a>
           </div>
 
           {/* Real Estate App */}
@@ -84,7 +83,7 @@ function Work() {
                 <span className='text-[#53c9c6] font-semibold flex items-center gap-0.5'><SiChakraui />Chakra UI</span>
               </div>
             </div>
-            <a href="https://real-estate-app-japrweb.vercel.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
+            <a href="https://real-estate-app-japrweb.vercel.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></a>
           </div>
 
           {/* Markaribeip */}
@@ -103,7 +102,7 @@ function Work() {
                 <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
               </div>
             </div>
-            <a href="https://www.markaribeip.com/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
+            <a href="https://www.markaribeip.com/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></a>
           </div>
 
           {/* Professional Portfolio */}
@@ -123,7 +122,7 @@ function Work() {
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
               </div>
             </div>
-            <a href="https://syncfusion-dashboardapp.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'> Visit </button></a>
+            <Link to="home" smooth={true} duration={500} delay={300}><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></Link>
           </div>
 
           {/* Silalase Card Store */}
