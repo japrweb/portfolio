@@ -74,10 +74,10 @@ duration-700 text-[24px]">
           <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute
           md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-[180px] md:py-1 duration-700 bg-[#539486]">
             <a className="hidden md:flex justify-between items-center w-full text-gray-300 ml-1.5"
-            href="src/assets/Resume_JohnAPerezR.pdf" download>Resume<BsFillPersonLinesFill className="text-[30px]"/></a>
+            href="./assets/Resume_JohnAPerezR.pdf" download>Resume<BsFillPersonLinesFill className="text-[30px]"/></a>
             {/* Mobile */}
             <a className="md:hidden text-gray-300"
-            href="src/assets/Resume_JohnAPerezR.pdf" download><BsFillPersonLinesFill className="text-[30px] mx-auto mb-2"/>Resume</a>
+            href="./assets/Resume_JohnAPerezR.pdf" download><BsFillPersonLinesFill className="text-[30px] mx-auto mb-2"/>Resume</a>
           </li>
         </ul>
       </div>
