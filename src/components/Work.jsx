@@ -9,7 +9,7 @@ import musicAppClone from '../assets/projects/musicAppClone.png';
 import realEstateApp from '../assets/projects/realEstateApp.png';
 import legalAdvice from '../assets/projects/markaribeip.png';
 import portfolio from '../assets/projects/japrweb.png';
-import cardStore from '../assets/projects/silalase.png';
+import expenseTracker from '../assets/projects/expenseTracker.png';
 
 function Work() {
   return (
@@ -125,23 +125,24 @@ function Work() {
             <Link to="home" smooth={true} duration={500} delay={300}><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></Link>
           </div>
 
-          {/* Silalase Card Store */}
+          {/* Expense Tracker */}
           <div className='bg-slate-700 hover:bg-[#1a1a1a] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl hover:shadow-md hover:shadow-[#6BD425] transition-all duration-1000 hover:transition-all hover:duration-1000 hover:scale-[101%]'>
             <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
-              <div style={{ backgroundImage: `url(${cardStore})`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} className='w-full h-[200px] absolute'/>
-              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
+              <div style={{ backgroundImage: `url(${expenseTracker})`, backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }} className='w-full h-[200px] absolute'/>
+              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#fff] opacity-10'></div>
+              <a href="https://github.com/japrweb/expense-tracker" target="_blank"><button type='button' className='bg-[#1a1a1a] hover:bg-[#0e0e0e] rounded-full m-2 p-1.5 text-white text-3xl shadow-md hover:shadow-md hover:shadow-[#0e0e0e] shadow-[#0e0e0e] transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-110 absolute'><AiFillGithub /></button></a>
             </div>
             
             <div>
-              <p className='text-2xl text-white font-bold'>Card Store</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>Online website offering sales of a wide variety of cards, providing a convenient platform to explore and purchase unique card designs.</p>
+              <p className='text-2xl text-white font-bold'>Expense Tracker</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2'>Expense tracking application featuring a user-friendly interface and intuitive tools for effortless management of income and expenses.</p>
               <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
-                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
-                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
-                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
+                <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
+                <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span>
+                <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
               </div>
             </div>
-            <a href="https://cardstore.silalase.com/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%]'>Visit</button></a>
+            <a href="https://webapp-expensetracker.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></a>
           </div>
         </div>
 
