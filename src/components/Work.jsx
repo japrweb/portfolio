@@ -36,8 +36,8 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Dashboard App</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>React Admin Dashboard Application includes an Admin Panel with Dashboard, Three Pages, Four Apps, and Seven functional charts.</p>
-              <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
+              <p className='text-sm text-gray-400 mb-1 mt-2 lg:line-clamp-5'>React Admin Dashboard Application includes an Admin Panel with Dashboard, Three Pages, Four Apps, and Seven functional charts.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
                 <span className='text-[#09d3ac] font-semibold flex items-center gap-0.5'><SiCreatereactapp />CRA</span>
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
@@ -56,8 +56,8 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Music App Clone</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>A Spotify inspired application with a homepage, a music player, search functionality, song exploration features, local music search, global top charts.</p>
-              <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>A Spotify inspired application with a homepage, a music player, search functionality, song exploration features, local music search, global top charts.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
                 <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span>
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
@@ -76,11 +76,11 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Real Estate App</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>Real Estate App featuring rental homes, for-sale properties, advanced filtering, and detailed property pages with image carousel.</p>
-              <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>Real Estate App featuring rental homes, for-sale properties, advanced filtering, and detailed property pages with image carousel.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
                 <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiNextdotjs />Next</span>
-                <span className='text-[#53c9c6] font-semibold flex items-center gap-0.5'><SiChakraui />Chakra UI</span>
+                <span className='text-[#53c9c6] font-semibold flex items-center gap-0.5'><SiChakraui />ChakraUI</span>
               </div>
             </div>
             <a href="https://real-estate-app-japrweb.vercel.app/" target="_blank"><button type='button' className='w-full bg-[#1a1a1a] hover:bg-[#0e0e0e] shadow-sm shadow-[#6BD425] rounded-md font-semibold p-2 mt-5 mb-2 hover:shadow-[#6BD425] transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[103%] '>Visit</button></a>
@@ -95,8 +95,8 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Legal Advice</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>The site offers essential legal guidance and support for brand consultation, copyright protection, and related services in the creative industry.</p>
-              <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>The site offers essential legal guidance and support for brand consultation, copyright protection, and related services in the creative industry.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
                 <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
                 <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
@@ -115,8 +115,8 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Portfolio</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>A website showcasing a professional portfolio of my recent works in application and web development, using various technologies.</p>
-              <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>A website showcasing a professional portfolio of my recent works in application and web development, using various technologies.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
                 <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span>
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
@@ -135,8 +135,8 @@ function Work() {
             
             <div>
               <p className='text-2xl text-white font-bold'>Expense Tracker</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2'>Expense tracking application featuring a user-friendly interface and intuitive tools for effortless management of income and expenses.</p>
-              <div className='flex flex-wrap items-center justify-start text-sm gap-2 mt-2 pr-2'>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>Expense tracking application featuring a user-friendly interface and intuitive tools for effortless management of income and expenses.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
                 <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
                 <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span>
                 <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
