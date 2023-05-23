@@ -10,14 +10,16 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-[#0e0e0e]">
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-      <GoUp /> 
-      <Footer />
+        <Navbar />
+      <div className="space-y-10 md:space-y-20">
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+        <GoUp /> 
+        <Footer />
+      </div>
     </div>
   );
 }

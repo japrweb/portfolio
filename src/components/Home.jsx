@@ -2,13 +2,9 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
-import Logo from '../assets/Logo_.png';
-
-
-
 function Home() {
   return (
-    <div name="home" className="w-full h-screen bg-[#0e0e0e] md:px-10 md:mb-[-10%] mb-[-20%]">
+    <div name="home" className="w-full h-screen bg-[#0e0e0e] md:px-10">
       {/* Container */}
       
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -33,7 +29,7 @@ function Home() {
             </button>
           </Link>
         </div>
-        <div className="shadow-inset-white bg-cover animate-myAnimation bg-center bg-no-repeat w-[90%] h-[50%] md:w-[40%] md:h-[60%] absolute z-0 -mt-20 opacity-50"/>
+        <div className="shadow-inset-white bg-cover animate-myAnimation bg-center bg-no-repeat w-[85%] h-[50%] md:w-[70%] lg:w-[40%] md:h-[60%] absolute z-0 -mt-20 opacity-50"/>
       </div>
     </div>
   );

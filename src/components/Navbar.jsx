@@ -11,12 +11,12 @@ function Navbar() {
 
   return (
     <div className="fixed w-full h-[65px] flex justify-between items-center md:px-20 bg-[#0e0e0e] text-gray-300 border-b-[1px] border-[#1b1b1b] z-20">
-      <div className="w-[30px] ml-6">
+      <div className="w-[30px] ml-6 md:ml-0">
         <Link to="home" smooth={true} duration={500}><img src={Logo} alt="Logo Image" className="cursor-pointer"/></Link>
       </div>
 
       {/* Menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex md:mr-0">
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link to="home" smooth={true} duration={500}>Home</Link></li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link to="about" smooth={true} duration={500}>About</Link></li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700"><Link to="skills" smooth={true} duration={500}>Skills</Link></li>

@@ -43,7 +43,7 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0e0e0e] flex justify-center items-center p-4 md:mt-[10%]"
+      className="w-full h-full bg-[#0e0e0e] flex justify-center items-center p-4 md:mt-[10%]"
     >
       <form
         method="POST"
