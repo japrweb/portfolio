@@ -10,9 +10,9 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[65px] flex justify-between items-center md:px-20 bg-[#0e0e0e] text-gray-300 border-b-[1px] border-[#1b1b1b] z-20">
+    <div className="fixed w-full h-[65px] flex justify-between items-center md:px-20 bg-[#1a1a1a] text-white z-20">
       <div className="w-[30px] ml-6 md:ml-0">
-        <Link to="home" smooth={true} duration={500}><img src={Logo} alt="Logo Image" className="cursor-pointer"/></Link>
+        <Link to="home" smooth={true} duration={500}><img src={Logo} alt="Logo Image" className="cursor-pointer hover:scale-110 duration-500 ml-[8px]"/></Link>
       </div>
 
       {/* Menu */}
@@ -25,8 +25,7 @@ function Navbar() {
       </ul>
 
       {/* Hamburger Button */}
-      <div onClick={handleClick} className="md:hidden mr-6 z-10 cursor-pointer hover:text-gray-500 hover:scale-110
-duration-700 text-[24px]">
+      <div onClick={handleClick} className="md:hidden mr-6 z-10 cursor-pointer hover:scale-110 duration-500 ml-[8px] text-[26px] font-thin text-[#6BD425] hover:text-[#ffffff]">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
