@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="bg-[#0e0e0e]">
+    <div className="bg-[#1a1a1a]">
       <Navbar />
       <div className="space-y-10 md:space-y-20">
         <Home />

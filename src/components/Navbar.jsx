@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/Logo_.png";
+import Logo from "../assets/Logo3.png";
 import { Link } from "react-scroll";
+import { FaInstagram } from "react-icons/fa";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -26,41 +27,41 @@ function Navbar() {
         isScrolled ? "bg-[#1a1a1a]" : "bg-transparent"
       } text-white z-20 transition-colors duration-300`}
     >
-      <div className="w-[30px] ml-6 md:ml-0">
+      <div className="w-[40px] ml-[24px] md:ml-[24px]">
         <Link to="home" smooth={true} duration={500}>
           <img
             src={Logo}
             alt="Logo Image"
-            className="cursor-pointer hover:scale-110 duration-500 ml-[8px]"
+            className="cursor-pointer  hover:scale-110 duration-700 ml-[0px]"
           />
         </Link>
       </div>
 
       {/* Menu */}
       <ul className="hidden md:flex md:mr-0">
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
+        <li className="hover:text-[#1A7F64] hover:scale-110 hover:font-bold duration-700">
           <Link to="home" smooth={true} duration={500}>
-            Home
+            Inicio
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link to="about" smooth={true} duration={500}>
-            About
+            ¿Quien Soy?
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link to="skills" smooth={true} duration={500}>
-            Skills
+            Habilidades
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link to="work" smooth={true} duration={500}>
-            Work
+            Portafolio
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link to="contact" smooth={true} duration={500}>
-            Contact
+            Contacto
           </Link>
         </li>
       </ul>
@@ -68,7 +69,7 @@ function Navbar() {
       {/* Hamburger Button */}
       <div
         onClick={handleClick}
-        className="md:hidden mr-6 z-10 cursor-pointer hover:scale-110 duration-500 ml-[8px] text-[26px] font-thin text-[#6BD425] hover:text-[#ffffff]"
+        className="md:hidden mr-6 z-10 cursor-pointer hover:scale-110 duration-500 ml-[8px] text-[26px] font-thin text-[#ffffff] hover:text-[#ffffff]"
       >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
@@ -83,27 +84,27 @@ function Navbar() {
       >
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
+            Inicio
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
+            ¿Quien Soy?
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
-            Skills
+            Habilidades
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            Work
+            Portafolio
           </Link>
         </li>
         <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
+            Contacto
           </Link>
         </li>
       </ul>
@@ -173,6 +174,7 @@ function Navbar() {
               download
             >
               Resume
+              
               <BsFillPersonLinesFill className="text-[30px]" />
             </a>
             <a
@@ -180,8 +182,8 @@ function Navbar() {
               href="./assets/Resume_JohnAPerezR.pdf"
               download
             >
-              <BsFillPersonLinesFill className="text-[30px] mx-auto mb-2" />
-              Resume
+              <FaInstagram className="text-[30px] mx-auto mb-2" />
+              Instagram
             </a>
           </li>
         </ul>

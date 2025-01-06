@@ -43,7 +43,7 @@ function Contact() {
   return (
     <div
       name="contact"
-      className="w-full h-full bg-[#0e0e0e] flex justify-center items-center p-4 md:mt-[10%]"
+      className="w-full h-full bg-[#1a1a1a] flex justify-center items-center p-4 md:mt-[10%]"
     >
       <form
         method="POST"
@@ -51,13 +51,15 @@ function Contact() {
         className="flex flex-col max-w-[800px] p-4 w-full"
         onSubmit={handleSubmit}
       >
-        <div className="pb-1">
-          <p className="text-4xl font-bold inline border-b-4 border-[#6BD425] text-gray-300">
-            <i class="fa-solid fa-envelope pr-2"></i>
-            Contact
+        <div className="pb-1 text-center">
+          <p className="text-4xl font-black inline text-gray-300">
+          ¿Tienes un proyecto en mente?
           </p>
           <p className="text-gray-300 py-4">
-            Submit the form below or shoot me an email to{" "}
+            Déjame ayudarte
+            <br></br>
+            <i class="fa-solid fa-envelope pr-2 text-gray-300"></i>
+Rellena el formulario o envíame un correo a{" "}
             <a
               href="mailto:japr893@gmail.com"
               target="_blank"
@@ -70,7 +72,7 @@ function Contact() {
         <input
           className={`py-2 px-3 bg-white rounded-md border-2 ${errors.name ? "border-red-500 placeholder-red-300" : "border-white"}`}
           type="text"
-          placeholder={errors.name ? "* Enter your name" : "Name"}
+          placeholder={errors.name ? "* Enter your name" : "Nombre"}
           name="name"
           value={name}
           onChange={handleInputChange}
@@ -88,12 +90,12 @@ function Contact() {
           name="message"
           cols="30"
           rows="10"
-          placeholder={errors.message ? "* Enter your message" : "Message"}
+          placeholder={errors.message ? "* Enter your message" : "Mensaje"}
           value={message}
           onChange={handleInputChange}
         ></textarea>
-        <button className="text-white border-2 hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#1b1b1b] font-medium px-6 py-3 my-4 mx-auto ml-0 flex items-center rounded-md duration-700">
-          Send Form
+        <button className="text-white border-2 hover:border-[#1A7F64] hover:bg-[#1A7F64] hover:text-[#ffffff] font-medium px-6 py-3 my-4 mx-auto ml-0 flex items-center rounded-md duration-700">
+          Enviar Formulario
         </button>
       </form>
     </div>

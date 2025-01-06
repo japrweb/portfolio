@@ -9,11 +9,11 @@ function Home() {
   className="relative bg-[url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat h-screen w-full"
 >
   {/* Glassmorphism Layer */}
-  <div className="absolute inset-0 bg-black bg-opacity-70 backdrop-blur-sm"></div>
+  <div className="absolute inset-0 bg-[#1a1a1a] bg-opacity-80 backdrop-blur-sm"></div>
 
   {/* Container */}
   <div className="relative max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
-    <p className="text-[#6BD425]">Hi, my name is</p>
+    <p className="text-[#10A37F]">Que bueno verte por aquí </p>
     <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
       John A. Pérez R.
     </h1>
