@@ -34,8 +34,8 @@ function Home() {
         delay={300}
         className="flex items-center"
       >
-        <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6BD425] hover:border-[#6BD425] hover:text-[#0e0e0e] font-medium rounded-md duration-700 z-10">
-          View Work
+        <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#1A7F64] hover:border-[#1A7F64] hover:text-[#ffffff] font-medium rounded-md duration-700 z-10">
+          Ver Proyectos
           <span className="group-hover:rotate-90 duration-300">
             <HiArrowNarrowRight className="ml-3" />
           </span>
