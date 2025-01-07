@@ -28,7 +28,7 @@ function Navbar() {
       } text-white z-20 transition-colors duration-300`}
     >
       <div className="w-[60px] ml-[24px] md:ml-[24px]">
-        <Link to="home" smooth={true} duration={500}>
+<Link to="home" smooth={true} duration={500}>
           <img
             src={Logo}
             alt="Logo Image"
