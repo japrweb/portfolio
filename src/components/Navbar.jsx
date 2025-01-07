@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Logo from "../assets/Logo3.png";
+import Logo from "../assets/Logo4.png";
 import { Link } from "react-scroll";
 import { FaInstagram } from "react-icons/fa";
 
@@ -27,7 +27,7 @@ function Navbar() {
         isScrolled ? "bg-[#1a1a1a]" : "bg-transparent"
       } text-white z-20 transition-colors duration-300`}
     >
-      <div className="w-[40px] ml-[24px] md:ml-[24px]">
+      <div className="w-[60px] ml-[24px] md:ml-[24px]">
         <Link to="home" smooth={true} duration={500}>
           <img
             src={Logo}
