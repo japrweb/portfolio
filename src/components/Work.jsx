@@ -11,6 +11,7 @@ import realEstateApp from '../assets/projects/realEstateApp.png';
 import legalAdvice from '../assets/projects/markaribeip.png';
 import petStore from '../assets/projects/petStore.png';
 import foodWeb from '../assets/projects/foodWeb.png';
+import saludWeb from '../assets/projects/saludWeb.png';
 import portfolio from '../assets/projects/japrweb.png';
 import expenseTracker from '../assets/projects/expenseTracker.png';
 
@@ -29,6 +30,66 @@ function Work() {
         
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
+
+          {/* Pets Store */}
+          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
+            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
+              <div style={{ backgroundImage: `url(${petStore})`, backgroundSize: 'cover', backgroundPosition: 'top' }} className='w-full h-[200px] absolute'/>
+              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
+            </div>
+            
+            <div>
+              <p className='text-2xl text-white font-bold'>Tienda de Mascotas</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>Esta web para tiendas de mascotas permite a los clientes explorar y adquirir productos en línea de manera sencilla, mejorando la experiencia de compra.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
+                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
+                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
+                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
+                <span className='text-[#2ebb33] font-semibold flex items-center gap-0.5'><HiTemplate />Referencia</span>
+              </div>
+            </div>
+            <a href="https://pets.japrweb.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
+          </div>
+          
+          {/* Food Web */}
+          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
+            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
+              <div style={{ backgroundImage: `url(${foodWeb})`, backgroundSize: 'cover', backgroundPosition: '0% 2%' }} className='w-full h-[200px] absolute'/>
+              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
+            </div>
+            
+            <div>
+              <p className='text-2xl text-white font-bold'>Restaurante Online</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'> Web para restaurantes ofrece un diseño elegante y funcional, permitiendo a los clientes explorar el menú, realizar reservas y pedidos en línea de manera sencilla.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
+                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
+                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
+                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
+                <span className='text-[#2ebb33] font-semibold flex items-center gap-0.5'><HiTemplate />Referencia</span>
+              </div>
+            </div>
+            <a href="https://food.japrweb.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
+          </div>
+
+          {/* Salud Web */}
+          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
+            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
+              <div style={{ backgroundImage: `url(${saludWeb})`, backgroundSize: 'cover', backgroundPosition: '0% 2%' }} className='w-full h-[200px] absolute'/>
+              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
+            </div>
+            
+            <div>
+              <p className='text-2xl text-white font-bold'> Salud Integral</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'> Sitio web dedicado a promover el bienestar físico y mental, ofreciendo recursos y servicios para mejorar la calidad de vida de sus usuarios.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
+                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
+                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
+                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
+                <span className='text-[#2ebb33] font-semibold flex items-center gap-0.5'><HiTemplate />Referencia</span>
+              </div>
+            </div>
+            <a href="https://food.japrweb.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
+          </div>
 
           {/* Dashboard App */}
           <div className='bg-[#2C2C2C] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl transition-all duration-1000'>
@@ -148,46 +209,6 @@ function Work() {
               </div>
             </div>
             <a href="https://webapp-expensetracker.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%] '>Ver Proyectos</button></a>
-          </div>
-
-          {/* Pets Store */}
-          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
-            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
-              <div style={{ backgroundImage: `url(${petStore})`, backgroundSize: 'cover', backgroundPosition: 'top' }} className='w-full h-[200px] absolute'/>
-              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
-            </div>
-            
-            <div>
-              <p className='text-2xl text-white font-bold'>Tienda de Mascotas</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>Esta web para tiendas de mascotas permite a los clientes explorar y adquirir productos en línea de manera sencilla, mejorando la experiencia de compra y facilitando la gestión del negocio.</p>
-              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
-                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
-                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
-                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
-                <span className='text-[#2ebb33] font-semibold flex items-center gap-0.5'><HiTemplate />Referencia</span>
-              </div>
-            </div>
-            <a href="https://pets.japrweb.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
-          </div>
-          
-          {/* Food Web */}
-          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
-            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
-              <div style={{ backgroundImage: `url(${foodWeb})`, backgroundSize: 'cover', backgroundPosition: '0% 2%' }} className='w-full h-[200px] absolute'/>
-              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
-            </div>
-            
-            <div>
-              <p className='text-2xl text-white font-bold'>Restaurante Online</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'> Web para restaurantes ofrece un diseño elegante y funcional, permitiendo a los clientes explorar el menú, realizar reservas y pedidos en línea de manera sencilla. Una presencia en línea profesional mejora la experiencia del cliente y optimiza la gestión de tu negocio.</p>
-              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
-                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
-                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
-                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
-                <span className='text-[#2ebb33] font-semibold flex items-center gap-0.5'><HiTemplate />Referencia</span>
-              </div>
-            </div>
-            <a href="https://food.japrweb.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
           </div>
 
         </div>
