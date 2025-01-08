@@ -7,12 +7,9 @@ function About() {
       className="w-full h-full bg-[#1a1a1a] text-gray-300 md:m-auto"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
+            <p className="text-4xl text-center font-black inline">SOBRE MÍ</p>
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
-              <i class="fa-solid fa-user text-4xl mr-4 text-gray-300"></i> 
-            <p className="text-4xl font-black inline border-b-4 border-[#98CE00]">
-              SOBRE MÍ
-            </p>
           </div>
           <div></div>
         </div>
@@ -20,6 +17,7 @@ function About() {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
+              <i class="fa-solid fa-user text-4xl mr-4 text-gray-300"></i> 
               Hi. I'm John. <br />
               Please take a look around.
             </p>

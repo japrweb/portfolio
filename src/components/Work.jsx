@@ -19,7 +19,7 @@ function Work() {
   return (
     <div name="work" className="w-full md:h-full text-gray-300 bg-[#1a1a1a] md:mt-[12%]">
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'>
-        <div className='pb-4'>
+        <div className='pb-4 text-center'>
           <p className='text-4xl font-black inline text-gray-300'>
             PORTAFOLIO
           </p>
@@ -28,7 +28,9 @@ function Work() {
             Aquí encontrarás proyectos que he realizado y ejemplos de diseños que puedo replicar en base a tus necesidades.</p>
         </div>
         
-        {/* Container */}
+        <p className='text-4xl font-black inline text-gray-300 mb-[1em]'>INSPÍRATE</p>
+        
+        {/* Container 1 */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
 
           {/* Pets Store */}
@@ -90,6 +92,13 @@ function Work() {
             </div>
             <a href="https://food.japrweb.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
           </div>
+
+        </div>
+
+        <p className='text-4xl font-black inline text-gray-300 my-[1em]'>MI TRABAJO</p>
+
+        {/* Container 2 */}
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
 
           {/* Dashboard App */}
           <div className='bg-[#2C2C2C] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl transition-all duration-1000'>
@@ -212,6 +221,7 @@ function Work() {
           </div>
 
         </div>
+
 
       </div>
     </div>
