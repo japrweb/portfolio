@@ -6,7 +6,7 @@ function Home() {
   return (
     <div
   name="home"
-  className="relative bg-[url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat h-screen w-full"
+  className="relative bg-[url('https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-center bg-no-repeat h-screen w-full"
 >
   {/* Glassmorphism Layer */}
   <div className="absolute inset-0 bg-[#1a1a1a] bg-opacity-80 backdrop-blur-sm"></div>
