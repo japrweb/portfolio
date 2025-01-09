@@ -63,7 +63,7 @@ Rellena el formulario o envíame un correo a{" "}
             <a
               href="mailto:japr893@gmail.com"
               target="_blank"
-              className="text-gray-500 hover:text-[#6BD425]"
+              className="text-gray-500 hover:text-[#1A7F64]"
             >
               japr893@gmail.com
             </a>

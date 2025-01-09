@@ -17,18 +17,13 @@ import expenseTracker from '../assets/projects/expenseTracker.png';
 
 function Work() {
   return (
-    <div name="work" className="w-full md:h-full text-gray-300 bg-[#1a1a1a] md:mt-[12%]">
+    <div className="w-full md:h-full text-gray-300 bg-[#1a1a1a] md:mt-[12%]">
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-4 text-center'>
-          <p className='text-4xl font-black inline text-gray-300'>
-            PORTAFOLIO
-          </p>
-          <p className='py-6'>
-            <i class="fa-solid fa-briefcase mr-2"/>
-            Aquí encontrarás proyectos que he realizado y ejemplos de diseños que puedo replicar en base a tus necesidades.</p>
         </div>
         
-        <p className='text-4xl font-black inline text-gray-300 mb-[1em]'>INSPÍRATE</p>
+        <p name="inspiracion" className='text-4xl font-black inline text-center text-gray-300 mb-[1em]'>INSPÍRATE</p>
+        <p className='mb-[1em]'>La idea es poder lograr un sitio web funcional, donde podemos tomar distintas elementos de otros diseños para lograr tu propia visión. Utiliza esta area para inspirarte.</p>
         
         {/* Container 1 */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
@@ -95,9 +90,11 @@ function Work() {
 
         </div>
 
-        <p className='text-4xl font-black inline text-gray-300 my-[1em]'>MI TRABAJO</p>
-
         {/* Container 2 */}
+          <p name="work" className='text-4xl font-black inline text-center text-gray-300 mt-[2em] mb-[0.5em]'>
+            PORTAFOLIO
+          </p>
+          <p className='py-6  text-center'>Aquí encontrarás proyectos que he realizado y ejemplos de diseños que puedo replicar en base a tus necesidades.</p>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
 
           {/* Dashboard App */}

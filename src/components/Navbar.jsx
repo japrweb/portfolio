@@ -28,7 +28,7 @@ function Navbar() {
       } text-white z-20 transition-colors duration-300`}
     >
       <div className="w-[60px] ml-[24px] md:ml-[24px]">
-<Link to="home" smooth={true} duration={500}>
+<Link to="home" smooth={true} duration={800}>
           <img
             src={Logo}
             alt="Logo Image"
@@ -40,27 +40,32 @@ function Navbar() {
       {/* Menu */}
       <ul className="hidden md:flex md:mr-0">
         <li className="hover:text-[#1A7F64] hover:scale-110 hover:font-bold duration-700">
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={800}>
             Inicio
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link to="about" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link to="about" smooth={true} duration={800}>
             ¿Quien Soy?
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link to="skills" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link to="skills" smooth={true} duration={800}>
             Habilidades
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link to="work" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link to="inspiracion" smooth={true} duration={800}>
+            Inspírate
+          </Link>
+        </li>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link to="work" smooth={true} duration={800}>
             Portafolio
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link to="contact" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link to="contact" smooth={true} duration={800}>
             Contacto
           </Link>
         </li>
@@ -69,7 +74,7 @@ function Navbar() {
       {/* Hamburger Button */}
       <div
         onClick={handleClick}
-        className="md:hidden mr-6 z-10 cursor-pointer hover:scale-110 duration-500 ml-[8px] text-[26px] font-thin text-[#ffffff] hover:text-[#ffffff]"
+        className="md:hidden mr-6 z-10 cursor-pointer hover:scale-110 duration-800 ml-[8px] text-[26px] font-thin text-[#ffffff] hover:text-[#ffffff]"
       >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
@@ -82,28 +87,28 @@ function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#0e0e0e] opacity-95 flex flex-col justify-center items-center gap-y-6 text-4xl"
         }
       >
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link onClick={handleClick} to="home" smooth={true} duration={800}>
             Inicio
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link onClick={handleClick} to="about" smooth={true} duration={800}>
             ¿Quien Soy?
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={800}>
             Habilidades
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link onClick={handleClick} to="work" smooth={true} duration={800}>
             Portafolio
           </Link>
         </li>
-        <li className="hover:text-[#6BD425] hover:scale-110 duration-700">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={800}>
             Contacto
           </Link>
         </li>
