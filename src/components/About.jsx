@@ -17,6 +17,7 @@ function About() {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
+              <i class="fa-solid fa-microchip"></i>
               <i class="fa-solid fa-user text-4xl mr-4 text-gray-300"></i> 
               Hi. I'm John. <br />
               Please take a look around.

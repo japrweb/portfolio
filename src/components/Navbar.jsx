@@ -119,6 +119,7 @@ function Navbar() {
         <ul className="flex w-full md:top-[35%] md:left-0 md:justify-start md:w-full justify-center mx-auto">
           {/* LinkedIn */}
           <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-0 md:py-1 duration-700 bg-blue-600">
+
             <a
               className="hidden md:flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/japrweb/"
