@@ -94,7 +94,7 @@ Rellena el formulario o envíame un correo a{" "}
           value={message}
           onChange={handleInputChange}
         ></textarea>
-        <button className="text-white border-2 hover:border-[#1A7F64] hover:bg-[#1A7F64] hover:text-[#ffffff] font-medium px-6 py-3 my-4 mx-auto ml-0 flex items-center rounded-md duration-700">
+        <button className="text-white border-2 hover:border-[#1A7F64] hover:bg-[#1A7F64] hover:text-[#ffffff] font-medium px-6 py-3 my-4 mx-auto ml-0 flex items-center rounded-md duration-700 w-full justify-center">
           Enviar Formulario
         </button>
       </form>
