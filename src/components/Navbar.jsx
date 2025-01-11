@@ -118,7 +118,7 @@ function Navbar() {
       <div className="flex fixed mx-auto bottom-0 flex-row w-full justify-center items-center md:flex md:fixed md:bottom-auto md:flex-col md:top-[35%] md:left-0">
         <ul className="flex w-full md:top-[35%] md:left-0 md:justify-start md:w-full justify-center mx-auto">
           {/* LinkedIn */}
-          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-0 md:py-1 duration-700 bg-blue-600">
+          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:flex md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-0 md:py-1 duration-700 bg-blue-600">
 
             <a
               className="hidden md:flex justify-between items-center w-full text-gray-300"
@@ -137,7 +137,7 @@ function Navbar() {
             </a>
           </li>
           {/* GitHub */}
-          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-[60px] md:py-1 duration-700 bg-[#333333]">
+          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-[145px] md:py-1 duration-700 bg-[#333333]">
             <a
               className="hidden md:flex justify-between items-center w-full text-gray-300"
               href="https://github.com/japrweb"
@@ -155,7 +155,7 @@ function Navbar() {
             </a>
           </li>
           {/* Email */}
-          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-[120px] md:py-1 duration-700 bg-[#945353]">
+          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-[265px] md:py-1 duration-700 bg-[#945353]">
             <a
               className="hidden md:flex justify-between items-center w-full text-gray-300"
               href="mailto:japr893@gmail.com"
@@ -173,7 +173,7 @@ function Navbar() {
             </a>
           </li>
           {/* Resume */}
-          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-[180px] md:py-1 duration-700 bg-[#539486]">
+          <li className="flex justify-center w-1/4 self-center h-[90px] items-start pt-4 mx-auto relative bottom-[-35px] hover:bottom-0 md:absolute md:w-[160px] md:h-[60px] md:items-center md:ml-[-100px] md:hover:ml-[-10px] md:top-[385px] md:py-1 duration-700 bg-[#539486]">
             <a
               className="hidden md:flex justify-between items-center w-full text-gray-300 ml-1.5"
               href="./assets/Resume_JohnAPerezR.pdf"
