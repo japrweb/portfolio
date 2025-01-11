@@ -19,8 +19,8 @@ function Skills() {
             HABILIDADES
           </p>
           <p className="py-4">
-            <i class="fa-solid fa-screwdriver-wrench text-gray-300 mr-2"></i> 
-            These are the technologies I've worked with</p>
+          A lo largo de mi carrera, he adquirido experiencia en diversas tecnologías clave para el desarrollo web moderno. A continuación, se presentan las herramientas y lenguajes que utilizo para crear soluciones digitales eficientes y atractivas.
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 ">
