@@ -5,15 +5,15 @@ import { HiTemplate } from "react-icons/hi";
 
 import { Link } from "react-scroll";
 
-import dashboardApp from '../assets/projects/dashboardApp.png';
-import musicAppClone from '../assets/projects/musicAppClone.png';
-import realEstateApp from '../assets/projects/realEstateApp.png';
-import legalAdvice from '../assets/projects/markaribeip.png';
-import petStore from '../assets/projects/petStore.png';
-import foodWeb from '../assets/projects/foodWeb.png';
-import saludWeb from '../assets/projects/saludWeb.png';
-import portfolio from '../assets/projects/japrweb.png';
-import expenseTracker from '../assets/projects/expenseTracker.png';
+import dashboardApp from '../assets/projects/dashboardApp-webp.webp';
+import musicAppClone from '../assets/projects/musicAppClone-webp.webp';
+import realEstateApp from '../assets/projects/realEstateApp-webp.webp';
+import legalAdvice from '../assets/projects/markaribeip-webp.webp';
+import petStore from '../assets/projects/petStore-webp.webp';
+import foodWeb from '../assets/projects/foodWeb-webp.webp';
+import saludWeb from '../assets/projects/saludWeb-webp.webp';
+import portfolio from '../assets/projects/japrweb-webp.webp';
+import expenseTracker from '../assets/projects/expenseTracker-webp.webp';
 
 function Work() {
   return (
@@ -23,7 +23,9 @@ function Work() {
         </div>
         
         <p name="inspiracion" className='text-4xl font-black inline text-center text-gray-300 mb-[1em]'>INSPÍRATE</p>
-        <p className='mb-[1em]'>La idea es poder lograr un sitio web funcional, donde podemos tomar distintas elementos de otros diseños para lograr tu propia visión. Utiliza esta area para inspirarte.</p>
+        <p className='mb-[2em]'>
+          La idea es poder lograr un sitio web funcional, donde podemos tomar distintas elementos de otros diseños para lograr tu propia visión. Utiliza esta area para inspirarte.
+        </p>
         
         {/* Container 1 */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
@@ -91,11 +93,31 @@ function Work() {
         </div>
 
         {/* Container 2 */}
-          <p name="work" className='text-4xl font-black inline text-center text-gray-300 mt-[2em] mb-[0.5em]'>
-            PORTAFOLIO
+          <p name="work" className='text-4xl font-black inline text-center text-gray-300 mt-[2em] mb-[0.5em]'>PORTAFOLIO</p>
+          <p className='mb-[2em]'>
+            Aquí encontrarás proyectos que he realizado y ejemplos de diseños que puedo replicar en base a tus necesidades.
           </p>
-          <p className='py-6  text-center'>Aquí encontrarás proyectos que he realizado y ejemplos de diseños que puedo replicar en base a tus necesidades.</p>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
+
+            {/* Professional Portfolio */}
+            <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
+              <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
+                <div style={{ backgroundImage: `url(${portfolio})`, backgroundSize: 'cover', backgroundPosition: '0% 0%' }} className='w-[103%] h-[200px] absolute'/>
+                <div className='w-full h-[200px] absolute top-0 left-0 bg-[#fff] opacity-10'></div>
+                <a href="https://github.com/japrweb/rea" target="_blank"><button type='button' className='bg-[#1a1a1a] hover:bg-[#0e0e0e] rounded-full m-2 p-1.5 text-white text-3xl shadow-md hover:shadow-md hover:shadow-[#0e0e0e] shadow-[#0e0e0e] transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-110 absolute'><AiFillGithub /></button></a>
+              </div>
+              
+              <div>
+                <p className='text-2xl text-white font-bold'>Portafolio</p>
+                <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>A website showcasing a professional portfolio of my recent works in application and web development, using various technologies.</p>
+                <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
+                  <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
+                  <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span>
+                  <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
+                </div>
+              </div>
+              <Link to="home" smooth={true} duration={500} delay={300}><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[95%] '>Ver Proyecto</button></Link>
+            </div>
 
           {/* Dashboard App */}
           <div className='bg-[#2C2C2C] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl transition-all duration-1000'>
@@ -158,45 +180,6 @@ function Work() {
             <a href="https://real-estate-app-japrweb.vercel.app/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[95%]'>Ver Proyecto</button></a>
           </div>
 
-          {/* Markaribeip */}
-          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
-            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
-              <div style={{ backgroundImage: `url(${legalAdvice})`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} className='w-full h-[200px] absolute'/>
-              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
-            </div>
-            
-            <div>
-              <p className='text-2xl text-white font-bold'>Legal Advice</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>The site offers essential legal guidance and support for brand consultation, copyright protection, and related services in the creative industry.</p>
-              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
-                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
-                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
-                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
-              </div>
-            </div>
-            <a href="https://www.markaribeip.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
-          </div>
-
-          {/* Professional Portfolio */}
-          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
-            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
-              <div style={{ backgroundImage: `url(${portfolio})`, backgroundSize: 'cover', backgroundPosition: '0% 2%' }} className='w-[103%] h-[200px] absolute'/>
-              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#fff] opacity-10'></div>
-              <a href="https://github.com/japrweb/rea" target="_blank"><button type='button' className='bg-[#1a1a1a] hover:bg-[#0e0e0e] rounded-full m-2 p-1.5 text-white text-3xl shadow-md hover:shadow-md hover:shadow-[#0e0e0e] shadow-[#0e0e0e] transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-110 absolute'><AiFillGithub /></button></a>
-            </div>
-            
-            <div>
-              <p className='text-2xl text-white font-bold'>Portafolio</p>
-              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>A website showcasing a professional portfolio of my recent works in application and web development, using various technologies.</p>
-              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
-                <span className='text-[#5ed3f3] font-semibold flex items-center gap-0.5'><SiReact />React</span> 
-                <span className='text-[#ffde3a] font-semibold flex items-center gap-0.5'><SiVite /> Vite</span>
-                <span className='text-[#38bdf8] font-semibold flex items-center gap-0.5'><SiTailwindcss />Tailwind</span>
-              </div>
-            </div>
-            <Link to="home" smooth={true} duration={500} delay={300}><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:shadow-md hover:scale-[95%] '>Ver Proyecto</button></Link>
-          </div>
-
           {/* Expense Tracker */}
           <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
             <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
@@ -215,6 +198,25 @@ function Work() {
               </div>
             </div>
             <a href="https://webapp-expensetracker.netlify.app/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%] '>Ver Proyectos</button></a>
+          </div>
+
+          {/* Markaribeip */}
+          <div className='bg-[#2c2c2c] justify-center items-center py-6 px-5 md:py-4 md:px-4 block mb-4 rounded-xl'>
+            <div className='w-full h-[200px] mb-4 rounded-2xl relative overflow-hidden'>
+              <div style={{ backgroundImage: `url(${legalAdvice})`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} className='w-full h-[200px] absolute'/>
+              <div className='w-full h-[200px] absolute top-0 left-0 bg-[#0e0e0e] opacity-10'></div>
+            </div>
+            
+            <div>
+              <p className='text-2xl text-white font-bold'>Legal Advice</p>
+              <p className='text-sm text-gray-400 mb-1 mt-2 md:line-clamp-5'>The site offers essential legal guidance and support for brand consultation, copyright protection, and related services in the creative industry.</p>
+              <div className='flex items-center justify-start text-sm gap-2 mt-2 pr-2'>
+                <span className='text-[#fff] font-semibold flex items-center gap-0.5'><SiWordpress />Wordpress</span>
+                <span className='text-[#dd4b25] font-semibold flex items-center gap-0.5'><SiHtml5 />Html</span>
+                <span className='text-[#42a5f5] font-semibold flex items-center gap-0.5'><SiCss3 />Css</span>
+              </div>
+            </div>
+            <a href="https://www.markaribeip.com/" target="_blank"><button type='button' className='w-full bg-[#1A7F64] hover:bg-[#1a1a1a] shadow-sm rounded-md font-semibold p-2 mt-5 mb-2 transition-all duration-700 hover:transition-all hover:duration-700 hover:scale-[95%]'>Ver Proyecto</button></a>
           </div>
 
         </div>

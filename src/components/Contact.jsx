@@ -72,7 +72,7 @@ Rellena el formulario o envíame un correo a{" "}
         <input
           className={`py-2 px-3 bg-white rounded-md border-2 ${errors.name ? "border-red-500 placeholder-red-300" : "border-white"}`}
           type="text"
-          placeholder={errors.name ? "* Enter your name" : "Nombre"}
+          placeholder={errors.name ? "* Ingresa tu nombre" : "Nombre"}
           name="name"
           value={name}
           onChange={handleInputChange}
@@ -80,7 +80,7 @@ Rellena el formulario o envíame un correo a{" "}
         <input
           className={`my-4 py-2 px-3 bg-white rounded-md border-2 ${errors.email ? "border-red-500 placeholder-red-300" : "border-white"}`}
           type="text"
-          placeholder={errors.email ? "* Enter your email" : "Email"}
+          placeholder={errors.email ? "* Ingresa tu email" : "Email"}
           name="email"
           value={email}
           onChange={handleInputChange}
@@ -90,7 +90,7 @@ Rellena el formulario o envíame un correo a{" "}
           name="message"
           cols="30"
           rows="10"
-          placeholder={errors.message ? "* Enter your message" : "Mensaje"}
+          placeholder={errors.message ? "* Ingresa tu mensaje" : "Mensaje"}
           value={message}
           onChange={handleInputChange}
         ></textarea>

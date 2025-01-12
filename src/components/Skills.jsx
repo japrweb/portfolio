@@ -1,13 +1,13 @@
 import React from "react";
 
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import Javascript from "../assets/javascript.png";
-import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
-import WordPress from "../assets/wordpress.png";
-import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
+import HTML from "../assets/html-webp.webp";
+import CSS from "../assets/css-webp.webp";
+import Javascript from "../assets/javascript-webp.webp";
+import ReactImg from "../assets/react-webp.webp";
+import Node from "../assets/node-webp.webp";
+import WordPress from "../assets/wordpress-webp.webp";
+import GitHub from "../assets/github-webp.webp";
+import Tailwind from "../assets/tailwind-webp.webp";
 
 function Skills() {
   return (
