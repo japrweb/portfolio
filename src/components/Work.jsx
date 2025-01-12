@@ -21,8 +21,9 @@ function Work() {
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-4 text-center'>
         </div>
-        
-        <p name="inspiracion" className='text-4xl font-black inline text-center text-gray-300 mb-[1em]'>INSPÍRATE</p>
+
+        <div name="inspiracion"  className="h-[80px]"></div>        
+        <p className='text-4xl font-black inline text-center text-gray-300 mb-[1em]'>INSPÍRATE</p>
         <p className='mb-[2em]'>
           La idea es poder lograr un sitio web funcional, donde podemos tomar distintas elementos de otros diseños para lograr tu propia visión. Utiliza esta area para inspirarte.
         </p>
@@ -93,7 +94,8 @@ function Work() {
         </div>
 
         {/* Container 2 */}
-          <p name="work" className='text-4xl font-black inline text-center text-gray-300 mt-[2em] mb-[0.5em]'>PORTAFOLIO</p>
+          <div name="work"   className="h-[80px]"></div> 
+          <p className='text-4xl font-black inline text-center text-gray-300 mb-[0.5em]'>PORTAFOLIO</p>
           <p className='mb-[2em]'>
             Aquí encontrarás proyectos que he realizado y ejemplos de diseños que puedo replicar en base a tus necesidades.
           </p>

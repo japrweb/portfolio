@@ -41,10 +41,7 @@ function Contact() {
   };
 
   return (
-    <div
-      name="contact"
-      className="w-full h-full bg-[#1a1a1a] flex justify-center items-center p-4 md:mt-[10%]"
-    >
+    <div className="w-full h-full bg-[#1a1a1a] flex justify-center items-center p-4 md:mt-[10%]">
       <form
         method="POST"
         action="https://getform.io/f/445d41c0-bf81-4a1d-bfd4-7ad0f3ac698d"
@@ -52,6 +49,7 @@ function Contact() {
         onSubmit={handleSubmit}
       >
         <div className="pb-1 text-center">
+          <div name="contact" className="h-[80px]"></div> 
           <p className="text-4xl font-black inline text-gray-300">
           ¿Tienes un proyecto en mente?
           </p>
