@@ -103,6 +103,11 @@ function Navbar() {
           </Link>
         </li>
         <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
+          <Link onClick={handleClick} to="inspiracion" smooth={true} duration={800}>
+            Inspírate
+          </Link>
+        </li>
+        <li className="hover:text-[#1A7F64] hover:scale-110 duration-700">
           <Link onClick={handleClick} to="work" smooth={true} duration={800}>
             Portafolio
           </Link>
